@@ -17,13 +17,17 @@ body {
 
 .navbar {
   justify-content: space-between;
-  margin-top: .9375rem;
-  margin-left: 2.5rem;
+  background-color: #3c1053;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
-.navbar-brand {
+.navbar-brand,.menu {
+  margin-left: 2.5rem;
   margin-right: .625rem;
   color: #78a841;
+  margin-top: .9375rem;
   font-size: 1.875rem;
 }
 
